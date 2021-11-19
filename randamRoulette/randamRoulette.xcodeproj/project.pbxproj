@@ -7,20 +7,40 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1F5F4CBB274783F800123C3B /* HomePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F5F4CBA274783F800123C3B /* HomePresenter.swift */; };
+		1F5F4CBD2747842B00123C3B /* HomeRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F5F4CBC2747842B00123C3B /* HomeRouter.swift */; };
+		1F5F4CC02747850B00123C3B /* RouletteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F5F4CBE2747850B00123C3B /* RouletteViewController.swift */; };
+		1F5F4CC12747850B00123C3B /* Roulette.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1F5F4CBF2747850B00123C3B /* Roulette.xib */; };
+		1F5F4CC32747853000123C3B /* RoulettePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F5F4CC22747853000123C3B /* RoulettePresenter.swift */; };
+		1F5F4CC52747854600123C3B /* RouletteRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F5F4CC42747854600123C3B /* RouletteRouter.swift */; };
+		1F5F4CC8274785EB00123C3B /* CalculatorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F5F4CC6274785EB00123C3B /* CalculatorViewController.swift */; };
+		1F5F4CC9274785EB00123C3B /* Calculator.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1F5F4CC7274785EB00123C3B /* Calculator.xib */; };
+		1F5F4CCB2747890600123C3B /* CalculatorPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F5F4CCA2747890600123C3B /* CalculatorPresenter.swift */; };
+		1F5F4CCD2747892900123C3B /* CalculatorRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F5F4CCC2747892900123C3B /* CalculatorRouter.swift */; };
 		1FDD8E5527423E6A0095B283 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FDD8E5427423E6A0095B283 /* AppDelegate.swift */; };
 		1FDD8E5727423E6A0095B283 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FDD8E5627423E6A0095B283 /* SceneDelegate.swift */; };
-		1FDD8E5927423E6A0095B283 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FDD8E5827423E6A0095B283 /* ViewController.swift */; };
-		1FDD8E5C27423E6B0095B283 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1FDD8E5A27423E6B0095B283 /* Main.storyboard */; };
+		1FDD8E5927423E6A0095B283 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FDD8E5827423E6A0095B283 /* HomeViewController.swift */; };
+		1FDD8E5C27423E6B0095B283 /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1FDD8E5A27423E6B0095B283 /* Home.storyboard */; };
 		1FDD8E5E27423E700095B283 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1FDD8E5D27423E700095B283 /* Assets.xcassets */; };
 		1FDD8E6127423E700095B283 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1FDD8E5F27423E700095B283 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1F5F4CBA274783F800123C3B /* HomePresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePresenter.swift; sourceTree = "<group>"; };
+		1F5F4CBC2747842B00123C3B /* HomeRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeRouter.swift; sourceTree = "<group>"; };
+		1F5F4CBE2747850B00123C3B /* RouletteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RouletteViewController.swift; sourceTree = "<group>"; };
+		1F5F4CBF2747850B00123C3B /* Roulette.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Roulette.xib; sourceTree = "<group>"; };
+		1F5F4CC22747853000123C3B /* RoulettePresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoulettePresenter.swift; sourceTree = "<group>"; };
+		1F5F4CC42747854600123C3B /* RouletteRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RouletteRouter.swift; sourceTree = "<group>"; };
+		1F5F4CC6274785EB00123C3B /* CalculatorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorViewController.swift; sourceTree = "<group>"; };
+		1F5F4CC7274785EB00123C3B /* Calculator.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Calculator.xib; sourceTree = "<group>"; };
+		1F5F4CCA2747890600123C3B /* CalculatorPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorPresenter.swift; sourceTree = "<group>"; };
+		1F5F4CCC2747892900123C3B /* CalculatorRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorRouter.swift; sourceTree = "<group>"; };
 		1FDD8E5127423E6A0095B283 /* randamRoulette.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = randamRoulette.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1FDD8E5427423E6A0095B283 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1FDD8E5627423E6A0095B283 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		1FDD8E5827423E6A0095B283 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		1FDD8E5B27423E6B0095B283 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1FDD8E5827423E6A0095B283 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		1FDD8E5B27423E6B0095B283 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Home.storyboard; sourceTree = "<group>"; };
 		1FDD8E5D27423E700095B283 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1FDD8E6027423E700095B283 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1FDD8E6227423E700095B283 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -37,6 +57,39 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1F5F4CB6274782DB00123C3B /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				1FDD8E5A27423E6B0095B283 /* Home.storyboard */,
+				1FDD8E5827423E6A0095B283 /* HomeViewController.swift */,
+				1F5F4CBA274783F800123C3B /* HomePresenter.swift */,
+				1F5F4CBC2747842B00123C3B /* HomeRouter.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		1F5F4CB72747830F00123C3B /* Roulette */ = {
+			isa = PBXGroup;
+			children = (
+				1F5F4CBF2747850B00123C3B /* Roulette.xib */,
+				1F5F4CBE2747850B00123C3B /* RouletteViewController.swift */,
+				1F5F4CC22747853000123C3B /* RoulettePresenter.swift */,
+				1F5F4CC42747854600123C3B /* RouletteRouter.swift */,
+			);
+			path = Roulette;
+			sourceTree = "<group>";
+		};
+		1F5F4CB92747834400123C3B /* Calculator */ = {
+			isa = PBXGroup;
+			children = (
+				1F5F4CC7274785EB00123C3B /* Calculator.xib */,
+				1F5F4CC6274785EB00123C3B /* CalculatorViewController.swift */,
+				1F5F4CCA2747890600123C3B /* CalculatorPresenter.swift */,
+				1F5F4CCC2747892900123C3B /* CalculatorRouter.swift */,
+			);
+			path = Calculator;
+			sourceTree = "<group>";
+		};
 		1FDD8E4827423E6A0095B283 = {
 			isa = PBXGroup;
 			children = (
@@ -56,10 +109,11 @@
 		1FDD8E5327423E6A0095B283 /* randamRoulette */ = {
 			isa = PBXGroup;
 			children = (
+				1F5F4CB92747834400123C3B /* Calculator */,
+				1F5F4CB72747830F00123C3B /* Roulette */,
+				1F5F4CB6274782DB00123C3B /* Home */,
 				1FDD8E5427423E6A0095B283 /* AppDelegate.swift */,
 				1FDD8E5627423E6A0095B283 /* SceneDelegate.swift */,
-				1FDD8E5827423E6A0095B283 /* ViewController.swift */,
-				1FDD8E5A27423E6B0095B283 /* Main.storyboard */,
 				1FDD8E5D27423E700095B283 /* Assets.xcassets */,
 				1FDD8E5F27423E700095B283 /* LaunchScreen.storyboard */,
 				1FDD8E6227423E700095B283 /* Info.plist */,
@@ -127,7 +181,9 @@
 			files = (
 				1FDD8E6127423E700095B283 /* LaunchScreen.storyboard in Resources */,
 				1FDD8E5E27423E700095B283 /* Assets.xcassets in Resources */,
-				1FDD8E5C27423E6B0095B283 /* Main.storyboard in Resources */,
+				1F5F4CC12747850B00123C3B /* Roulette.xib in Resources */,
+				1FDD8E5C27423E6B0095B283 /* Home.storyboard in Resources */,
+				1F5F4CC9274785EB00123C3B /* Calculator.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,21 +194,29 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1FDD8E5927423E6A0095B283 /* ViewController.swift in Sources */,
+				1F5F4CC32747853000123C3B /* RoulettePresenter.swift in Sources */,
+				1F5F4CCD2747892900123C3B /* CalculatorRouter.swift in Sources */,
+				1FDD8E5927423E6A0095B283 /* HomeViewController.swift in Sources */,
 				1FDD8E5527423E6A0095B283 /* AppDelegate.swift in Sources */,
+				1F5F4CC02747850B00123C3B /* RouletteViewController.swift in Sources */,
+				1F5F4CC52747854600123C3B /* RouletteRouter.swift in Sources */,
 				1FDD8E5727423E6A0095B283 /* SceneDelegate.swift in Sources */,
+				1F5F4CCB2747890600123C3B /* CalculatorPresenter.swift in Sources */,
+				1F5F4CBB274783F800123C3B /* HomePresenter.swift in Sources */,
+				1F5F4CC8274785EB00123C3B /* CalculatorViewController.swift in Sources */,
+				1F5F4CBD2747842B00123C3B /* HomeRouter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		1FDD8E5A27423E6B0095B283 /* Main.storyboard */ = {
+		1FDD8E5A27423E6B0095B283 /* Home.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				1FDD8E5B27423E6B0095B283 /* Base */,
 			);
-			name = Main.storyboard;
+			name = Home.storyboard;
 			sourceTree = "<group>";
 		};
 		1FDD8E5F27423E700095B283 /* LaunchScreen.storyboard */ = {
@@ -294,7 +358,7 @@
 				INFOPLIST_FILE = randamRoulette/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIMainStoryboardFile = Home;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -322,7 +386,7 @@
 				INFOPLIST_FILE = randamRoulette/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIMainStoryboardFile = Home;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
